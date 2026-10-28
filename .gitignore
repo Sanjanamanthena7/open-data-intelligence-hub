@@ -1,118 +1,73 @@
-  
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Jupyter
-.ipynb_checkpoints/
-*.pyc
-
-
-
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 
-# Virtual environments
-.venv/
+# Virtual Environments
 venv/
-env/
-ENV/
-
-# Jupyter
-.ipynb_checkpoints/
-# Large trained model artifacts
-*.pkl
-
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environments
 .venv/
-venv/
 env/
 ENV/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE
+# IDEs
 .vscode/
 .idea/
 
-# OS
+# OS Files
 .DS_Store
 Thumbs.db
 
-# Python tooling
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python Tooling
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 
-# ML / TensorFlow
+# Machine Learning
 *.h5
+*.hdf5
 *.keras
 *.ckpt
+*.pkl
+*.joblib
 checkpoint/
 checkpoints/
-logs/
 wandb/
 
-# Large datasets
+# Datasets
 data/
 datasets/
 *.parquet
 *.csv
 *.zip
+*.rar
 *.tar
 *.tar.gz
-
-# Generated results/caches
-__pycache__/
-*.log
-.DS_Store
-Thumbs.db
-
-# Python tooling
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# ML / TensorFlow
-*.h5
-*.keras
-*.ckpt
-checkpoint/
-checkpoints/
-logs/
-wandb/
-
-# Large datasets
-data/
-datasets/
-*.parquet
-*.csv
-*.zip
-*.tar
-*.tar.gz
-
-# Generated results/caches
-__pycache__/
-*.log
-# Operating system files
-.DS_Store
-Thumbs.db
-
-# Streamlit secrets
-.streamlit/secrets.toml
 **/data/dataset.zip
-*.tar.gz
+
+# Generated Outputs
+outputs/
+runs/
+logs/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
