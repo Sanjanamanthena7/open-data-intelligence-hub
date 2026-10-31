@@ -5,3 +5,8 @@ matplotlib
 seaborn
 joblib
 jupyter
+matplotlib
+seaborn
+scikit-learn
+streamlit
+joblib
